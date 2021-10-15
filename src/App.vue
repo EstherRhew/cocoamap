@@ -1,32 +1,26 @@
 <template>
   <div>
+    <Header />
     <MainLayout />
-
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+    <Footer />
   </div>
 </template>
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
-
-import MainLayout from "@/views/layouts/MainLayout.vue";
+import Header from "./views/Header.vue";
+import MainLayout from "./views/MainLayout.vue";
+import Footer from "./views/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld,
+    Header,
     MainLayout,
+    Footer,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  /* margin-top: 60px; */
-}
 </style>

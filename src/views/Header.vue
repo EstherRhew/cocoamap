@@ -20,12 +20,11 @@ header {
   background-color: #8a8074;
   width: 100%;
   height: 3.5rem;
-  display: flex;
-  align-content: center;
+  /* display: flex; */
+  /* align-content: center; */
   color: #e0e0e0;
 }
 .container {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
