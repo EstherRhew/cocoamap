@@ -22,19 +22,19 @@ export default {
   },
   methods: {
     initMap() {
-      var container = document.getElementById("map");
-      var options = {
+      const container = document.getElementById("map");
+      const options = {
         center: new kakao.maps.LatLng(33.450701, 126.570667),
         level: 3,
       };
 
-      var map2 = new kakao.maps.Map(container, options);
+      const map = new kakao.maps.Map(container, options);
 
-      var markerPosition = new kakao.maps.LatLng(33.450701, 126.570667);
-      var marker = new kakao.maps.Marker({
+      const markerPosition = new kakao.maps.LatLng(33.450701, 126.570667);
+      const marker = new kakao.maps.Marker({
         position: markerPosition,
       });
-      marker.setMap(map2);
+      marker.setMap(map);
     },
   },
 };
@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 .map {
-  width: 500px;
-  height: 400px;
+  width: 750px;
+  height: 600px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app">
     <Header />
     <MainLayout />
     <Footer />
@@ -23,4 +23,11 @@ export default {
 </script>
 
 <style>
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>

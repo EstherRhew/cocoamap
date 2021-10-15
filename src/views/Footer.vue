@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <h1>Yaay</h1>
+    <h1>Footer</h1>
   </footer>
 </template>
 
@@ -11,4 +11,9 @@ export default {
 </script>
 
 <style scoped>
+footer {
+  background-color: antiquewhite;
+  height: 2.5rem;
+  width: 100%;
+}
 </style>
